@@ -1,0 +1,22 @@
+﻿
+Question 1 
+
+Time Spent: 10 mins
+
+Scenario:  
+Unity Developer Test 
+You are tasked with building a particle system for your team to utilize in a 3D game 
+project. Your team does not have resources to implement the rendering aspects, 
+so you’re tasked with defining an interface that will be utilized by your team and 
+implemented later.  
+The interface for the particle system needs to provide methods to satisfy the 
+following requirements:  
+• Given an “Type ID” integer (the type ID specifies the emitter settings: 
+particle lifetime, color, velocity, etc.), the system will create a new instance 
+of a particle emitter.  
+• Given a particle emitter instance, the particle system can attach it to a 
+model, place it at a world location, or place it at a screenspace location.  
+• Given a particle emitter instance, the particle system can scale and/or 
+rotate it.  
+• Given a particle emitter instance, the particle system can terminate it early.  
+Define an interface for the particle system and submit the file.
