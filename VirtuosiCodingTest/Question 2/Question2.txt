@@ -1,0 +1,11 @@
+﻿
+Question 2
+
+Time Spent: 20 mins
+
+Scenario:  
+The following diagram contains 5 squares in a 2x2 configuration: four 1x1s and 
+one 2x2:
+Write a C# method that takes a single, greater-than-zero integer to define the NxN 
+configuration and output the total number of unique squares present in the 
+diagram.
