@@ -1,0 +1,27 @@
+﻿Question 3
+
+Time taken: 30 mins
+
+Scenario:  
+Unity Developer Test 
+You are asked by a producer to implement a sonar system that queries in a sphere 
+around a given point, and you need to report whether an object appears on the 
+sonar readout.  
+Short Answer:  
+Explain how it would work and how you would go about implementing such a 
+system (maximum 2 paragraphs).
+
+
+Answer:
+========
+To implement a sonar system that queries in a sphere around a given point, 
+the system would first define the point in 3D space and the radius of the sphere that represents the sonar's range. The system would then iterate through 
+all objects in the environment and calculate the distance from the origin to each object. 
+If the distance is less than or equal to the radius, the object would be considered "detected" 
+and reported on the sonar readout.
+
+For implementation, I would use spatial partitioning techniques like a quadtree or an octree to optimize the search within the 3D space. This reduces the number of distance calculations by 
+focusing only on objects that are near the query point. The Euclidean distance formula would be used 
+to compute distances. Once the detected objects 
+are identified, their details (e.g., type, location) would be returned or displayed on the sonar interface. 
+This approach is computationally efficient and works well for real-time applications.
